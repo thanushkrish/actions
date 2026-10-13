@@ -1,0 +1,17 @@
+name: shellcommands
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: commands
+        run: |
+          echo " Basics bitchh'
+          pwd
+          mkdir learnings
+          cd learnings          
+          touch padida.txt
+          echo "intha sample podhuma kolandha" > padida.txt
+          cat padida.txt
+          date
+          echo "thanks" 
