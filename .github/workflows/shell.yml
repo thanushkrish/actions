@@ -1,12 +1,12 @@
 name: shellcommands
-on: workflow_dispatch
+on: push
 jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
       - name: commands
         run: |
-          echo " Basics bitchh'
+          echo "Basics bitchh"
           pwd
           mkdir learnings
           cd learnings          
