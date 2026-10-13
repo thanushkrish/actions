@@ -8,5 +8,5 @@ jobs:
         run: |
           echo "Hi akshaya baby I love you sooo much" 
           echo "i can run mutliple lines"
-          echo date
+          date
          
