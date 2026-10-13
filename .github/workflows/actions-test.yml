@@ -8,5 +8,11 @@ jobs:
         run: |
           echo "Hi akshaya baby I love you sooo much" 
           echo "i can run mutliple lines"
+          pwd
+          mkdir learning
+          cd learning
+          touch learn.txt
+          echo "learning github actions" > learn.txt
+          cat learn.txt
           date
          
