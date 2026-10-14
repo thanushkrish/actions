@@ -11,7 +11,7 @@ jobs:
           mkdir learnings
           cd learnings          
           touch padida.txt
-          echo "intha sample podhuma kolandha" > padida.txt
+          echo "Akshaya is my girlfriend" > padida.txt
           cat padida.txt
           date
           echo "thanks" 
