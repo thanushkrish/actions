@@ -21,8 +21,8 @@ jobs:
     steps:
       - name: TESTCHECK
         run: |
-          ech "im studying with akshaya"
-          dat
+          echo "im studying with akshaya"
+          date
         
   deploy:
     runs-on: ubuntu-latest
