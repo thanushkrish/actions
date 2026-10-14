@@ -17,14 +17,16 @@ jobs:
           echo "thanks" 
   test:
     runs-on: ubuntu-latest
+    needs: hello
     steps:
       - name: TESTCHECK
         run: |
-          echo "im studying with akshaya"
-          date
+          ech "im studying with akshaya"
+          dat
         
   deploy:
     runs-on: ubuntu-latest
+    needs: test
     steps:
       - name: deploycheck
         run:
